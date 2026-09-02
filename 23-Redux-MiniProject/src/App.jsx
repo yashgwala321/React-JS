@@ -1,11 +1,15 @@
 import React from 'react'
+import SearchBar from './components/SearchBar'
+import Tabs from './components/Tabs'
 
-function App() {
+const App = () => {
   return (
-    <div>
-      
+    <div className='h-screen text-white w-full bg-gray-950'>
+       <SearchBar/>
+       <Tabs />
     </div>
   )
 }
 
 export default App
+ 
